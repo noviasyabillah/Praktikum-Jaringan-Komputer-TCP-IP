@@ -1,0 +1,83 @@
+Frame 253: Packet, 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface \Device\NPF_{0F3776D6-9696-46C9-AE9C-EDD7B2F15546}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{0F3776D6-9696-46C9-AE9C-EDD7B2F15546})
+        Interface name: \Device\NPF_{0F3776D6-9696-46C9-AE9C-EDD7B2F15546}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 15:39:43.024841800 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 08:39:43.024841800 UTC
+    Epoch Arrival Time: 1791880783.024841800
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 28.249600 milliseconds]
+    [Time since reference or first frame: 1.668799100 seconds]
+    Frame Number: 253
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: LiteonTechno_a7:88:b1 (24:b2:b9:a7:88:b1), Dst: VMware_9f:5a:c2 (00:50:56:9f:5a:c2)
+    Destination: VMware_9f:5a:c2 (00:50:56:9f:5a:c2)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: LiteonTechno_a7:88:b1 (24:b2:b9:a7:88:b1)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 95]
+Internet Protocol Version 4, Src: 10.252.129.214, Dst: 10.252.128.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0x05be (1470)
+    000. .... = Flags: 0x0
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: UDP (17)
+    Header Checksum: 0x1d24 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.129.214
+    Destination Address: 10.252.128.2
+    [Stream index: 82]
+User Datagram Protocol, Src Port: 56832, Dst Port: 53
+    Source Port: 56832
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x0102 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 133]
+    [Stream Packet Number: 1]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0xc9e4
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.notion.so: type A, class IN
+            Name: www.notion.so
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (1) (Host Address)
+            Class: IN (0x0001)
+    [Response In: 258]
